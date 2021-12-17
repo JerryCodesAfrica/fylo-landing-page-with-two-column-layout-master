@@ -1,0 +1,130 @@
+/** @format */
+$fs: 20px;
+$hfontmobile: 400;
+$hfontpc: 700;
+$bodyweightG: 400;
+$hfont: Raleway;
+$bfont: Open Sans;
+$vdb: hsl(243, 87%, 12%);
+$dsb: hsl(238, 22%, 44%);
+$bb: hsl(224, 93%, 58%);
+$mc: hsl(170, 45%, 43%);
+$lgb: hsl(240, 75%, 98%);
+$lg: hsl(0, 0%, 75%);
+body {
+    overflow-x: hidden;
+    font-family: $bfont;
+    margin: 0;
+    padding: 0;
+    .header {
+        display: flex;
+        width: 100%;
+        .logoimg {
+            width: 25vh;
+            margin: 20px;
+            margin-top: 43px;
+        }
+        ul {
+            font-family: $hfont;
+            margin-left: 40px;
+            display: flex;
+            justify-content: space-between;
+            li {
+                margin-top: 40px;
+                list-style-type: none;
+                width: 100px;
+                a {
+                    padding: 10px;
+                    text-decoration: none;
+                    color: black;
+                    font-size: $fs;
+                }
+            }
+        }
+    }
+    .sec1 {
+        text-align: center;
+        .illustration1 {
+            width: 80vh;
+            margin: 10px;
+            margin-top: 100px;
+            align-self: center;
+        }
+        .txt {
+            display: grid;
+            .firsttxt {
+                position: relative;
+                left: 100px;
+                font-size: 30px;
+                text-align: center;
+                color: $vdb;
+            }
+            .secondtxt {
+                position: relative;
+                left: 100px;
+                font-size: 18px;
+                margin-top: 50px;
+            }
+            .searcharea {
+                display: grid;
+                margin-top: 20px;
+                #sa {
+                    width: 340px;
+                    height: 40px;
+                    position: relative;
+                    left: 110px;
+                    text-align: left;
+
+                    border-color: black;
+                }
+                .gs {
+                    text-decoration: none;
+                    width: 320px;
+                    height: 30px;
+                    position: relative;
+                    left: 110px;
+                    text-align: center;
+                    margin-top: 20px;
+                    border-radius: 2px;
+                    color: white;
+                    padding: 10px;
+                    background-color: $bb;
+                }
+            }
+        }
+    }
+    .sec2 {
+        .sec2txt {
+            position: relative;
+            left: 100px;
+            margin-top: 100px;
+
+            .txt2 {
+                width: 400px;
+                margin-top: 50px;
+                font-size: 25px;
+                position: relative;
+                bottom: 50px;
+            }
+            .txt3 {
+                font-size: 20px;
+                position: relative;
+                bottom: 40px;
+            }
+            .this {
+                display: flex;
+                margin-top: 10px;
+                margin-bottom: 40px;
+                text-align: center;
+                position: relative;
+                left: 100px;
+            }
+        }
+        .illustration2 {
+            width: 80vh;
+            margin: 10px;
+            margin-top: 100px;
+            align-self: center;
+        }
+    }
+}
