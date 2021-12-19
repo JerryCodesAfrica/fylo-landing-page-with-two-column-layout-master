@@ -123,6 +123,7 @@ body .sec2 .sec2txt .txt3 {
   font-size: 20px;
   position: relative;
   bottom: 40px;
+  font-weight: 200;
 }
 
 body .sec2 .sec2txt .this {
@@ -143,10 +144,5 @@ body .sec2 .illustration2 {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-}
-
-.utube {
-  margin-top: 5px;
-  color: green;
 }
 /*# sourceMappingURL=style.css.map */
