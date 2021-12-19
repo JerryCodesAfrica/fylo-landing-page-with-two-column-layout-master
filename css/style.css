@@ -137,6 +137,55 @@ body .sec2 .sec2txt .this {
   left: 100px;
 }
 
+body .sec2 .sec2txt .gridsection {
+  margin-top: 20px;
+  width: 380px;
+  position: relative;
+  right: 18px;
+  padding: 10px;
+  margin-right: 50px;
+  height: 220px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+}
+
+body .sec2 .sec2txt .gridsection .quote {
+  position: relative;
+  padding-bottom: 25px;
+  padding-left: 12px;
+  padding-top: 12px;
+  width: 17px;
+}
+
+body .sec2 .sec2txt .gridsection .gridtxt {
+  left: 10px;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  bottom: 5px;
+  font-weight: 500;
+}
+
+body .sec2 .sec2txt .gridsection .profile {
+  position: relative;
+  left: 15px;
+  top: 7px;
+}
+
+body .sec2 .sec2txt .gridsection .profile .at {
+  position: relative;
+  top: 20px;
+  border-radius: 50%;
+  width: 40px;
+}
+
+body .sec2 .sec2txt .gridsection .profile .profilenm .st {
+  position: relative;
+  left: 43px;
+  font-weight: 200;
+}
+
 body .sec2 .illustration2 {
   width: 80vh;
   margin: 10px;
