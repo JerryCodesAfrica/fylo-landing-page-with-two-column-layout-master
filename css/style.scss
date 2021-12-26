@@ -13,6 +13,7 @@ $lgb: hsl(240, 75%, 98%);
 $lg: hsl(0, 0%, 75%);
 body {
     overflow-x: hidden;
+    width: 375px;
     font-family: $bfont;
     margin: 0;
     padding: 0;
@@ -20,7 +21,7 @@ body {
         display: flex;
         width: 100%;
         .logoimg {
-            width: 16vh;
+            width: 14vh;
             margin: 20px;
             margin-top: 45px;
         }
@@ -30,14 +31,15 @@ body {
             display: inline-flex;
             justify-content: space-between;
             li {
-                margin-top: 32px;
+                margin-top: 34px;
                 list-style-type: none;
-                width: 100px;
+
                 a {
-                    padding: 7px;
                     text-decoration: none;
                     color: black;
-                    font-size: $fs;
+                    font-size: 15px;
+                    padding: 10px;
+                    width: 100%;
                 }
             }
         }
@@ -53,24 +55,26 @@ body {
         .txt {
             display: grid;
             .firsttxt {
+                width: 250px;
                 position: relative;
-                font-size: 30px;
+                left: 25%;
+                font-size: 20px;
                 text-align: center;
                 color: $vdb;
             }
             .secondtxt {
                 margin-left: 30px;
                 position: relative;
-                font-size: 18px;
-                margin-top: 50px;
+                font-size: 12px;
+                margin-top: 30px;
             }
             .searcharea {
                 display: grid;
                 margin-left: 33px;
                 margin-top: 20px;
                 #sa {
-                    width: 340px;
-                    height: 40px;
+                    width: 320px;
+                    height: 30px;
                     position: relative;
                     text-align: left;
 
@@ -78,8 +82,8 @@ body {
                 }
                 .gs {
                     text-decoration: none;
-                    width: 320px;
-                    height: 30px;
+                    width: 300px;
+                    height: 20px;
                     position: relative;
                     text-align: center;
                     margin-top: 20px;
@@ -92,7 +96,6 @@ body {
         }
     }
     .sec2 {
-        margin-left: 12px;
         background-color: $lgb;
         width: 100%;
         background-size: cover;
@@ -104,15 +107,15 @@ body {
 
             .txt2 {
                 width: 400px;
-                margin-top: 50px;
-                font-size: 23px;
+                margin-top: 40px;
+                font-size: 20px;
                 position: relative;
                 bottom: 50px;
             }
             .txt3 {
-                font-size: 16px;
+                font-size: 15px;
                 position: relative;
-                bottom: 40px;
+                bottom: 20px;
                 font-weight: 200;
             }
             .this {

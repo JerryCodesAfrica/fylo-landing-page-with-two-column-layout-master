@@ -1,6 +1,7 @@
 /** @format */
 body {
   overflow-x: hidden;
+  width: 375px;
   font-family: Open Sans;
   margin: 0;
   padding: 0;
@@ -14,7 +15,7 @@ body .header {
 }
 
 body .header .logoimg {
-  width: 16vh;
+  width: 14vh;
   margin: 20px;
   margin-top: 45px;
 }
@@ -31,16 +32,16 @@ body .header ul {
 }
 
 body .header ul li {
-  margin-top: 32px;
+  margin-top: 34px;
   list-style-type: none;
-  width: 100px;
 }
 
 body .header ul li a {
-  padding: 7px;
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 15px;
+  padding: 10px;
+  width: 100%;
 }
 
 body .sec1 {
@@ -62,8 +63,10 @@ body .sec1 .txt {
 }
 
 body .sec1 .txt .firsttxt {
+  width: 250px;
   position: relative;
-  font-size: 30px;
+  left: 25%;
+  font-size: 20px;
   text-align: center;
   color: #070439;
 }
@@ -71,8 +74,8 @@ body .sec1 .txt .firsttxt {
 body .sec1 .txt .secondtxt {
   margin-left: 30px;
   position: relative;
-  font-size: 18px;
-  margin-top: 50px;
+  font-size: 12px;
+  margin-top: 30px;
 }
 
 body .sec1 .txt .searcharea {
@@ -83,8 +86,8 @@ body .sec1 .txt .searcharea {
 }
 
 body .sec1 .txt .searcharea #sa {
-  width: 340px;
-  height: 40px;
+  width: 320px;
+  height: 30px;
   position: relative;
   text-align: left;
   border-color: black;
@@ -92,8 +95,8 @@ body .sec1 .txt .searcharea #sa {
 
 body .sec1 .txt .searcharea .gs {
   text-decoration: none;
-  width: 320px;
-  height: 30px;
+  width: 300px;
+  height: 20px;
   position: relative;
   text-align: center;
   margin-top: 20px;
@@ -104,7 +107,6 @@ body .sec1 .txt .searcharea .gs {
 }
 
 body .sec2 {
-  margin-left: 12px;
   background-color: #f6f6fe;
   width: 100%;
   background-size: cover;
@@ -119,16 +121,16 @@ body .sec2 .sec2txt {
 
 body .sec2 .sec2txt .txt2 {
   width: 400px;
-  margin-top: 50px;
-  font-size: 23px;
+  margin-top: 40px;
+  font-size: 20px;
   position: relative;
   bottom: 50px;
 }
 
 body .sec2 .sec2txt .txt3 {
-  font-size: 16px;
+  font-size: 15px;
   position: relative;
-  bottom: 40px;
+  bottom: 20px;
   font-weight: 200;
 }
 
