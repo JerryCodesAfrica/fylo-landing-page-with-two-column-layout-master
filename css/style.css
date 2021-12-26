@@ -295,7 +295,13 @@ body .sec4 .lie {
   position: relative;
   top: 30px;
   text-align: left;
-  left: -40px;
+  display: -ms-grid;
+  display: grid;
+}
+
+body .sec4 .lie .dw {
+  color: white;
+  text-decoration: none;
 }
 
 body .attribution {

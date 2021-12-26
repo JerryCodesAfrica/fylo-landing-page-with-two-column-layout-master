@@ -257,7 +257,11 @@ body {
             position: relative;
             top: 30px;
             text-align: left;
-            left: -40px;
+            display: grid;
+            .dw {
+                color: white;
+                text-decoration: none;
+            }
         }
     }
     .attribution {
