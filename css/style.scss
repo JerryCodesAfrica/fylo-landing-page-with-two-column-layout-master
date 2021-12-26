@@ -21,7 +21,7 @@ body {
         display: flex;
         width: 100%;
         .logoimg {
-            width: 14vh;
+            width: 10vh;
             margin: 20px;
             margin-top: 45px;
         }
@@ -31,13 +31,14 @@ body {
             display: inline-flex;
             justify-content: space-between;
             li {
-                margin-top: 34px;
+                margin-top: 27px;
+                margin-left: 10px;
                 list-style-type: none;
 
                 a {
                     text-decoration: none;
                     color: black;
-                    font-size: 15px;
+                    font-size: 10px;
                     padding: 10px;
                     width: 100%;
                 }
@@ -48,41 +49,39 @@ body {
         text-align: center;
         .illustration1 {
             width: 100%;
-            margin: 10px;
-            margin-top: 100px;
+            margin-top: 60px;
             align-self: center;
         }
         .txt {
             display: grid;
             .firsttxt {
-                width: 250px;
+                width: 210px;
                 position: relative;
-                left: 25%;
-                font-size: 20px;
+                left: 55px;
+                font-size: 18px;
                 text-align: center;
                 color: $vdb;
             }
             .secondtxt {
-                margin-left: 30px;
                 position: relative;
-                font-size: 12px;
-                margin-top: 30px;
+                font-size: 10px;
+                width: 220px;
+                left: 55px;
+                margin-top: 20px;
             }
             .searcharea {
                 display: grid;
-                margin-left: 33px;
+                margin-left: 35px;
                 margin-top: 20px;
                 #sa {
-                    width: 320px;
+                    width: 270px;
                     height: 30px;
                     position: relative;
                     text-align: left;
-
-                    border-color: black;
                 }
                 .gs {
                     text-decoration: none;
-                    width: 300px;
+                    width: 250px;
                     height: 20px;
                     position: relative;
                     text-align: center;
@@ -98,7 +97,7 @@ body {
     .sec2 {
         background-color: $lgb;
         width: 100%;
-        background-size: cover;
+        height: 1000px;
         .sec2txt {
             position: relative;
             width: 100%;
@@ -107,13 +106,13 @@ body {
 
             .txt2 {
                 width: 400px;
-                margin-top: 40px;
+                margin-top: 30px;
                 font-size: 20px;
                 position: relative;
                 bottom: 50px;
             }
             .txt3 {
-                font-size: 15px;
+                font-size: 12px;
                 position: relative;
                 bottom: 20px;
                 font-weight: 200;
@@ -172,35 +171,56 @@ body {
             }
         }
         .illustration2 {
-            width: 350px;
+            width: 100%;
             margin: 10px;
             margin-top: 100px;
-            align-self: center;
         }
     }
     .sec3 {
         background-color: $dsb;
         color: white;
         width: 100%;
-        margin-left: 12px;
-        height: 500px;
+        height: 400px;
         .txt {
-            padding: 40px;
+            padding: 20px;
             .big1 {
                 position: relative;
                 top: 50px;
+                left: 55px;
                 font-weight: 1000;
+                font-size: 22px;
                 text-align: center;
-                font-size: $fs;
-                margin-left: 25%;
-                padding-top: 100px;
+                padding-top: 120px;
             }
-            .o1 {
-                font-weight: 500;
-                padding: 20px;
-                text-align: center;
+        }
+        .o1 {
+            font-size: 13px;
+            font-weight: 500;
+            position: relative;
+            left: 10px;
+            top: 100px;
+            text-align: center;
+        }
+        .ta {
+            position: relative;
+            top: 140px;
+            display: grid;
+            margin-left: 35px;
+            #sa2 {
+                width: 270px;
+                height: 30px;
+            }
+            .gsff {
+                text-decoration: none;
+                width: 250px;
+                height: 20px;
                 position: relative;
-                top: 100px;
+                text-align: center;
+                margin-top: 20px;
+                border-radius: 2px;
+                color: white;
+                padding: 10px;
+                background-color: $bb;
             }
         }
     }

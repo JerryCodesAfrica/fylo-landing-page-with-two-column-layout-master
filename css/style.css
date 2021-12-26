@@ -15,7 +15,7 @@ body .header {
 }
 
 body .header .logoimg {
-  width: 14vh;
+  width: 10vh;
   margin: 20px;
   margin-top: 45px;
 }
@@ -32,14 +32,15 @@ body .header ul {
 }
 
 body .header ul li {
-  margin-top: 34px;
+  margin-top: 27px;
+  margin-left: 10px;
   list-style-type: none;
 }
 
 body .header ul li a {
   text-decoration: none;
   color: black;
-  font-size: 15px;
+  font-size: 10px;
   padding: 10px;
   width: 100%;
 }
@@ -50,8 +51,7 @@ body .sec1 {
 
 body .sec1 .illustration1 {
   width: 100%;
-  margin: 10px;
-  margin-top: 100px;
+  margin-top: 60px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -63,39 +63,39 @@ body .sec1 .txt {
 }
 
 body .sec1 .txt .firsttxt {
-  width: 250px;
+  width: 210px;
   position: relative;
-  left: 25%;
-  font-size: 20px;
+  left: 55px;
+  font-size: 18px;
   text-align: center;
   color: #070439;
 }
 
 body .sec1 .txt .secondtxt {
-  margin-left: 30px;
   position: relative;
-  font-size: 12px;
-  margin-top: 30px;
+  font-size: 10px;
+  width: 220px;
+  left: 55px;
+  margin-top: 20px;
 }
 
 body .sec1 .txt .searcharea {
   display: -ms-grid;
   display: grid;
-  margin-left: 33px;
+  margin-left: 35px;
   margin-top: 20px;
 }
 
 body .sec1 .txt .searcharea #sa {
-  width: 320px;
+  width: 270px;
   height: 30px;
   position: relative;
   text-align: left;
-  border-color: black;
 }
 
 body .sec1 .txt .searcharea .gs {
   text-decoration: none;
-  width: 300px;
+  width: 250px;
   height: 20px;
   position: relative;
   text-align: center;
@@ -109,7 +109,7 @@ body .sec1 .txt .searcharea .gs {
 body .sec2 {
   background-color: #f6f6fe;
   width: 100%;
-  background-size: cover;
+  height: 1000px;
 }
 
 body .sec2 .sec2txt {
@@ -121,14 +121,14 @@ body .sec2 .sec2txt {
 
 body .sec2 .sec2txt .txt2 {
   width: 400px;
-  margin-top: 40px;
+  margin-top: 30px;
   font-size: 20px;
   position: relative;
   bottom: 50px;
 }
 
 body .sec2 .sec2txt .txt3 {
-  font-size: 15px;
+  font-size: 12px;
   position: relative;
   bottom: 20px;
   font-weight: 200;
@@ -195,41 +195,64 @@ body .sec2 .sec2txt .gridsection .profile .profilenm .st {
 }
 
 body .sec2 .illustration2 {
-  width: 350px;
+  width: 100%;
   margin: 10px;
   margin-top: 100px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
 }
 
 body .sec3 {
   background-color: #585989;
   color: white;
   width: 100%;
-  margin-left: 12px;
-  height: 500px;
+  height: 400px;
 }
 
 body .sec3 .txt {
-  padding: 40px;
+  padding: 20px;
 }
 
 body .sec3 .txt .big1 {
   position: relative;
   top: 50px;
+  left: 55px;
   font-weight: 1000;
+  font-size: 22px;
   text-align: center;
-  font-size: 20px;
-  margin-left: 25%;
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
-body .sec3 .txt .o1 {
+body .sec3 .o1 {
+  font-size: 13px;
   font-weight: 500;
-  padding: 20px;
-  text-align: center;
   position: relative;
+  left: 10px;
   top: 100px;
+  text-align: center;
+}
+
+body .sec3 .ta {
+  position: relative;
+  top: 140px;
+  display: -ms-grid;
+  display: grid;
+  margin-left: 35px;
+}
+
+body .sec3 .ta #sa2 {
+  width: 270px;
+  height: 30px;
+}
+
+body .sec3 .ta .gsff {
+  text-decoration: none;
+  width: 250px;
+  height: 20px;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 2px;
+  color: white;
+  padding: 10px;
+  background-color: #3065f8;
 }
 /*# sourceMappingURL=style.css.map */
