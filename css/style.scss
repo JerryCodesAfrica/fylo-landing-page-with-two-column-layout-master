@@ -49,6 +49,7 @@ body {
     }
     .sec1 {
         text-align: center;
+        width: 100%;
         .illustration1 {
             width: 100%;
             margin-top: 45px;
@@ -189,10 +190,11 @@ body {
     .sec3 {
         background-color: $dsb;
         color: white;
+        width: 100%;
 
         .txt {
             padding: 20px;
-            height: 200px;
+            height: 260px;
             .big1 {
                 position: relative;
                 top: 50px;
@@ -209,14 +211,15 @@ body {
             font-weight: 500;
             position: relative;
             left: 10px;
-            top: 100px;
+            top: 90px;
             text-align: center;
         }
         .ta {
             position: relative;
-            top: 140px;
+
+            top: -75px;
             display: grid;
-            margin-left: 35px;
+            margin-left: 40px;
             #sa2 {
                 width: 270px;
                 height: 30px;
@@ -239,6 +242,7 @@ body {
         padding: 35px;
         background-color: $vdb;
         color: white;
+        width: 100%;
         text-align: left;
         .lg2 {
             filter: invert(1);
@@ -269,6 +273,7 @@ body {
         }
     }
     .attribution {
+        width: 100%;
         font-size: 13px;
         padding-left: 10px;
         a {

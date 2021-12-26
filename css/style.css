@@ -50,6 +50,7 @@ body .header ul li a {
 
 body .sec1 {
   text-align: center;
+  width: 100%;
 }
 
 body .sec1 .illustration1 {
@@ -214,11 +215,12 @@ body .sec2 .illustration2 {
 body .sec3 {
   background-color: #585989;
   color: white;
+  width: 100%;
 }
 
 body .sec3 .txt {
   padding: 20px;
-  height: 200px;
+  height: 260px;
 }
 
 body .sec3 .txt .big1 {
@@ -237,16 +239,16 @@ body .sec3 .o1 {
   font-weight: 500;
   position: relative;
   left: 10px;
-  top: 100px;
+  top: 90px;
   text-align: center;
 }
 
 body .sec3 .ta {
   position: relative;
-  top: 140px;
+  top: -75px;
   display: -ms-grid;
   display: grid;
-  margin-left: 35px;
+  margin-left: 40px;
 }
 
 body .sec3 .ta #sa2 {
@@ -271,6 +273,7 @@ body .sec4 {
   padding: 35px;
   background-color: #070439;
   color: white;
+  width: 100%;
   text-align: left;
 }
 
@@ -309,6 +312,7 @@ body .sec4 .lie .dw {
 }
 
 body .attribution {
+  width: 100%;
   font-size: 13px;
   padding-left: 10px;
 }
