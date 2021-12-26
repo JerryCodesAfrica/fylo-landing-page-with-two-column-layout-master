@@ -232,4 +232,39 @@ body {
             }
         }
     }
+    .sec4 {
+        padding: 35px;
+        background-color: $vdb;
+        color: white;
+        text-align: left;
+        .lg2 {
+            filter: invert(1);
+            padding: 10px;
+            width: 20vh;
+        }
+        .de {
+            font-size: 20px;
+            position: relative;
+            top: 20px;
+        }
+        .mail {
+            font-size: 20px;
+            margin-top: 34px;
+        }
+        .lie {
+            list-style-type: none;
+            font-size: 15px;
+            position: relative;
+            top: 30px;
+            text-align: left;
+            left: -40px;
+        }
+    }
+    .attribution {
+        font-size: 13px;
+        padding-left: 10px;
+        a {
+            text-decoration: none;
+        }
+    }
 }
