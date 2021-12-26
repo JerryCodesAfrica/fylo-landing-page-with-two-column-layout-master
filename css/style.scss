@@ -20,21 +20,21 @@ body {
         display: flex;
         width: 100%;
         .logoimg {
-            width: 15vh;
+            width: 16vh;
             margin: 20px;
             margin-top: 45px;
         }
         ul {
             font-family: $hfont;
-            margin-left: 2px;
-            display: flex;
+            margin-left: -32px;
+            display: inline-flex;
             justify-content: space-between;
             li {
-                margin-top: 40px;
+                margin-top: 32px;
                 list-style-type: none;
                 width: 100px;
                 a {
-                    padding: 10px;
+                    padding: 7px;
                     text-decoration: none;
                     color: black;
                     font-size: $fs;
@@ -59,12 +59,14 @@ body {
                 color: $vdb;
             }
             .secondtxt {
+                margin-left: 30px;
                 position: relative;
                 font-size: 18px;
                 margin-top: 50px;
             }
             .searcharea {
                 display: grid;
+                margin-left: 33px;
                 margin-top: 20px;
                 #sa {
                     width: 340px;
@@ -90,6 +92,7 @@ body {
         }
     }
     .sec2 {
+        margin-left: 12px;
         background-color: $lgb;
         width: 100%;
         background-size: cover;
@@ -122,24 +125,24 @@ body {
             }
             .gridsection {
                 margin-top: 20px;
-                width: 380px;
+                width: 280px;
                 position: relative;
                 right: 18px;
                 padding: 10px;
-                margin-right: 50px;
-                height: 220px;
+                margin-left: 42px;
+                height: 180px;
                 background-color: white;
                 box-shadow: 0 0 10px black;
                 .quote {
                     position: relative;
-                    padding-bottom: 25px;
+                    padding-bottom: 15px;
                     padding-left: 12px;
                     padding-top: 12px;
                     width: 17px;
                 }
                 .gridtxt {
                     left: 10px;
-                    font-size: 18px;
+                    font-size: 14px;
                     text-align: center;
                     position: relative;
                     bottom: 5px;
@@ -148,7 +151,7 @@ body {
                 .profile {
                     position: relative;
                     left: 15px;
-                    top: 7px;
+                    top: 4px;
                     .at {
                         position: relative;
                         top: 20px;
@@ -166,13 +169,36 @@ body {
             }
         }
         .illustration2 {
-            width: 100%;
+            width: 350px;
             margin: 10px;
             margin-top: 100px;
             align-self: center;
         }
     }
     .sec3 {
-        background-color: $lg;
+        background-color: $dsb;
+        color: white;
+        width: 100%;
+        margin-left: 12px;
+        height: 500px;
+        .txt {
+            padding: 40px;
+            .big1 {
+                position: relative;
+                top: 50px;
+                font-weight: 1000;
+                text-align: center;
+                font-size: $fs;
+                margin-left: 25%;
+                padding-top: 100px;
+            }
+            .o1 {
+                font-weight: 500;
+                padding: 20px;
+                text-align: center;
+                position: relative;
+                top: 100px;
+            }
+        }
     }
 }

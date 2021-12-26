@@ -14,30 +14,30 @@ body .header {
 }
 
 body .header .logoimg {
-  width: 15vh;
+  width: 16vh;
   margin: 20px;
   margin-top: 45px;
 }
 
 body .header ul {
   font-family: Raleway;
-  margin-left: 2px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin-left: -32px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 body .header ul li {
-  margin-top: 40px;
+  margin-top: 32px;
   list-style-type: none;
   width: 100px;
 }
 
 body .header ul li a {
-  padding: 10px;
+  padding: 7px;
   text-decoration: none;
   color: black;
   font-size: 20px;
@@ -69,6 +69,7 @@ body .sec1 .txt .firsttxt {
 }
 
 body .sec1 .txt .secondtxt {
+  margin-left: 30px;
   position: relative;
   font-size: 18px;
   margin-top: 50px;
@@ -77,6 +78,7 @@ body .sec1 .txt .secondtxt {
 body .sec1 .txt .searcharea {
   display: -ms-grid;
   display: grid;
+  margin-left: 33px;
   margin-top: 20px;
 }
 
@@ -102,6 +104,7 @@ body .sec1 .txt .searcharea .gs {
 }
 
 body .sec2 {
+  margin-left: 12px;
   background-color: #f6f6fe;
   width: 100%;
   background-size: cover;
@@ -142,12 +145,12 @@ body .sec2 .sec2txt .this {
 
 body .sec2 .sec2txt .gridsection {
   margin-top: 20px;
-  width: 380px;
+  width: 280px;
   position: relative;
   right: 18px;
   padding: 10px;
-  margin-right: 50px;
-  height: 220px;
+  margin-left: 42px;
+  height: 180px;
   background-color: white;
   -webkit-box-shadow: 0 0 10px black;
           box-shadow: 0 0 10px black;
@@ -155,7 +158,7 @@ body .sec2 .sec2txt .gridsection {
 
 body .sec2 .sec2txt .gridsection .quote {
   position: relative;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   padding-left: 12px;
   padding-top: 12px;
   width: 17px;
@@ -163,7 +166,7 @@ body .sec2 .sec2txt .gridsection .quote {
 
 body .sec2 .sec2txt .gridsection .gridtxt {
   left: 10px;
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
   position: relative;
   bottom: 5px;
@@ -173,7 +176,7 @@ body .sec2 .sec2txt .gridsection .gridtxt {
 body .sec2 .sec2txt .gridsection .profile {
   position: relative;
   left: 15px;
-  top: 7px;
+  top: 4px;
 }
 
 body .sec2 .sec2txt .gridsection .profile .at {
@@ -190,7 +193,7 @@ body .sec2 .sec2txt .gridsection .profile .profilenm .st {
 }
 
 body .sec2 .illustration2 {
-  width: 100%;
+  width: 350px;
   margin: 10px;
   margin-top: 100px;
   -ms-flex-item-align: center;
@@ -199,6 +202,32 @@ body .sec2 .illustration2 {
 }
 
 body .sec3 {
-  background-color: #bfbfbf;
+  background-color: #585989;
+  color: white;
+  width: 100%;
+  margin-left: 12px;
+  height: 500px;
+}
+
+body .sec3 .txt {
+  padding: 40px;
+}
+
+body .sec3 .txt .big1 {
+  position: relative;
+  top: 50px;
+  font-weight: 1000;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 25%;
+  padding-top: 100px;
+}
+
+body .sec3 .txt .o1 {
+  font-weight: 500;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  top: 100px;
 }
 /*# sourceMappingURL=style.css.map */
