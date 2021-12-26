@@ -134,7 +134,8 @@ body .sec2 .sec2txt .txt2 {
 }
 
 body .sec2 .sec2txt .txt3 {
-  font-size: 12px;
+  font-size: 15px;
+  width: 80px;
   position: relative;
   bottom: 18px;
   font-weight: 400;
