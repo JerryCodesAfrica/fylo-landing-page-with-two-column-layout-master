@@ -11,6 +11,9 @@ $bb: hsl(224, 93%, 58%);
 $mc: hsl(170, 45%, 43%);
 $lgb: hsl(240, 75%, 98%);
 $lg: hsl(0, 0%, 75%);
+* {
+    overflow-x: hidden;
+}
 body {
     width: 375px;
     font-family: $bfont;
@@ -186,10 +189,10 @@ body {
     .sec3 {
         background-color: $dsb;
         color: white;
-        width: 100%;
-        height: 400px;
+
         .txt {
             padding: 20px;
+            height: 200px;
             .big1 {
                 position: relative;
                 top: 50px;
@@ -201,6 +204,7 @@ body {
             }
         }
         .o1 {
+            color: white;
             font-size: 13px;
             font-weight: 500;
             position: relative;
