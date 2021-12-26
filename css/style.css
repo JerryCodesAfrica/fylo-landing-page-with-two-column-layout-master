@@ -69,14 +69,16 @@ body .sec1 .txt .firsttxt {
   font-size: 18px;
   text-align: center;
   color: #070439;
+  font-family: Open Sans;
 }
 
 body .sec1 .txt .secondtxt {
   position: relative;
-  font-size: 10px;
-  width: 220px;
+  font-size: 12px;
+  width: 230px;
   left: 55px;
   margin-top: 20px;
+  font-family: Open Sans;
 }
 
 body .sec1 .txt .searcharea {
@@ -110,6 +112,7 @@ body .sec2 {
   background-color: #f6f6fe;
   width: 100%;
   height: 1000px;
+  font-family: Open Sans;
 }
 
 body .sec2 .sec2txt {
@@ -124,14 +127,18 @@ body .sec2 .sec2txt .txt2 {
   margin-top: 30px;
   font-size: 20px;
   position: relative;
+  text-align: center;
+  left: 15px;
   bottom: 50px;
+  font-family: Open Sans;
 }
 
 body .sec2 .sec2txt .txt3 {
   font-size: 12px;
   position: relative;
-  bottom: 20px;
-  font-weight: 200;
+  bottom: 18px;
+  font-weight: 400;
+  font-family: Open Sans;
 }
 
 body .sec2 .sec2txt .this {
@@ -152,7 +159,7 @@ body .sec2 .sec2txt .gridsection {
   right: 18px;
   padding: 10px;
   margin-left: 42px;
-  height: 180px;
+  height: 190px;
   background-color: white;
   -webkit-box-shadow: 0 0 10px black;
           box-shadow: 0 0 10px black;
