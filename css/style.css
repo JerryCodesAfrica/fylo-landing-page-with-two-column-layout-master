@@ -1,5 +1,6 @@
 /** @format */
 body {
+  overflow-y: hidden;
   overflow-x: hidden;
   width: 375px;
   font-family: Open Sans;
