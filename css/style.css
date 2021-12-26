@@ -15,8 +15,8 @@ body .header {
 }
 
 body .header .logoimg {
-  width: 12vh;
-  margin: 20px;
+  width: 15vh;
+  margin: 17px;
   margin-top: 45px;
 }
 
@@ -63,7 +63,7 @@ body .sec1 .txt {
 }
 
 body .sec1 .txt .firsttxt {
-  width: 210px;
+  width: 230px;
   position: relative;
   left: 55px;
   font-size: 18px;
