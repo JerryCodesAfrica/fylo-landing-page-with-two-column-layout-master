@@ -15,7 +15,7 @@ body .header {
 }
 
 body .header .logoimg {
-  width: 10vh;
+  width: 12vh;
   margin: 20px;
   margin-top: 45px;
 }
@@ -32,15 +32,15 @@ body .header ul {
 }
 
 body .header ul li {
-  margin-top: 27px;
-  margin-left: 10px;
+  margin-top: 29px;
+  margin-left: 13px;
   list-style-type: none;
 }
 
 body .header ul li a {
   text-decoration: none;
   color: black;
-  font-size: 10px;
+  font-size: 12px;
   padding: 10px;
   width: 100%;
 }
