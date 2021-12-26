@@ -40,7 +40,7 @@ body .header ul li {
 body .header ul li a {
   text-decoration: none;
   color: black;
-  font-size: 12px;
+  font-size: 13px;
   padding: 10px;
   width: 100%;
 }
@@ -51,7 +51,7 @@ body .sec1 {
 
 body .sec1 .illustration1 {
   width: 100%;
-  margin-top: 60px;
+  margin-top: 45px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
