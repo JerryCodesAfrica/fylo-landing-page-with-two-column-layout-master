@@ -11,6 +11,7 @@ $bb: hsl(224, 93%, 58%);
 $mc: hsl(170, 45%, 43%);
 $lgb: hsl(240, 75%, 98%);
 $lg: hsl(0, 0%, 75%);
+
 * {
     overflow-x: hidden;
 }
@@ -51,7 +52,7 @@ body {
         text-align: center;
         width: 100%;
         .illustration1 {
-            width: 100%;
+            width: 374px;
             margin-top: 45px;
             align-self: center;
         }
@@ -86,8 +87,8 @@ body {
                 }
                 .gs {
                     text-decoration: none;
-                    width: 250px;
-                    height: 20px;
+                    width: 270px;
+                    height: 40px;
                     position: relative;
                     text-align: center;
                     margin-top: 20px;
@@ -103,6 +104,7 @@ body {
         background-color: $lgb;
         width: 100%;
         height: 1000px;
+        margin-top: 100px;
         font-family: $bfont;
         .sec2txt {
             position: relative;
@@ -138,20 +140,20 @@ body {
             }
             .gridsection {
                 margin-top: 20px;
-                width: 280px;
+                width: 310px;
                 position: relative;
                 right: 15px;
                 padding: 10px;
-                margin-left: 42px;
-                height: 190px;
+                margin-left: 39px;
+                height: 210px;
                 background-color: white;
                 box-shadow: 0 0 10px black;
                 .quote {
                     position: relative;
                     padding-bottom: 15px;
                     padding-left: 12px;
-                    padding-top: 12px;
-                    width: 17px;
+                    padding-top: 19px;
+                    width: 19px;
                 }
                 .gridtxt {
                     left: 10px;
@@ -191,6 +193,7 @@ body {
         background-color: $dsb;
         color: white;
         width: 100%;
+        height: 500px;
 
         .txt {
             padding: 20px;
@@ -217,7 +220,7 @@ body {
         .ta {
             position: relative;
 
-            top: -75px;
+            top: 15px;
             display: grid;
             margin-left: 40px;
             #sa2 {
@@ -226,14 +229,14 @@ body {
             }
             .gsff {
                 text-decoration: none;
-                width: 250px;
-                height: 20px;
+                width: 270px;
+                height: 50px;
                 position: relative;
                 text-align: center;
                 margin-top: 20px;
                 border-radius: 2px;
                 color: white;
-                padding: 10px;
+                padding: 7px;
                 background-color: $bb;
             }
         }
@@ -243,6 +246,7 @@ body {
         background-color: $vdb;
         color: white;
         width: 100%;
+        height: 600px;
         text-align: left;
         .lg2 {
             filter: invert(1);
@@ -252,17 +256,21 @@ body {
         .de {
             font-size: 20px;
             position: relative;
+            bottom: 20px;
             top: 20px;
         }
         .mail {
             font-size: 20px;
-            margin-top: 34px;
+            margin-top: 70px;
+            display: inline;
+            position: relative;
+            top: 30px;
         }
         .lie {
             list-style-type: none;
             font-size: 15px;
             position: relative;
-            top: 30px;
+            top: 50px;
             text-align: left;
             display: grid;
             .dw {
@@ -279,5 +287,64 @@ body {
         a {
             text-decoration: none;
         }
+    }
+}
+
+@media (min-width: 425px) {
+    .header {
+        width: 100%;
+
+        display: inline;
+    }
+    #logoimg {
+        width: 130px;
+        height: 40px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    ul {
+        margin-top: 20px;
+        height: 120px;
+        padding-left: 500px;
+    }
+    li a {
+        margin-left: 100px;
+    }
+    #details {
+        font-size: 15px;
+    }
+
+    .sec1 {
+        display: flex;
+        #illustration1 {
+            width: 35%;
+            position: relative;
+            order: 2;
+            margin-left: 100px;
+        }
+        #txt {
+            order: 1;
+            #firsttxt {
+                margin-top: 70px;
+                font-size: 30px;
+                width: 300px;
+                text-align: left;
+            }
+            #secondtxt {
+                margin-top: -70px;
+            }
+            #searcharea {
+                display: flex;
+            }
+        }
+    }
+    .sec2 {
+        width: 100%;
+    }
+    .sec3 {
+        width: 100%;
+    }
+    .sec4 {
+        width: 100%;
     }
 }

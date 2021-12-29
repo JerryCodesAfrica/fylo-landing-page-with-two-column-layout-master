@@ -1,355 +1,395 @@
 /** @format */
 * {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body {
-    width: 375px;
-    font-family: Open Sans;
-    margin: 0;
-    padding: 0;
+  width: 100%;
+  font-family: Open Sans;
+  margin: 0;
+  padding: 0;
 }
 
 body .header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
 }
 
 body .header .logoimg {
-    width: 15vh;
-    margin: 17px;
-    margin-top: 45px;
+  width: 15vh;
+  margin: 17px;
+  margin-top: 45px;
 }
 
 body .header ul {
-    font-family: Raleway;
-    margin-left: -32px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+  font-family: Raleway;
+  margin-left: -32px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 body .header ul li {
-    margin-top: 29px;
-    margin-left: 13px;
-    list-style-type: none;
+  margin-top: 29px;
+  margin-left: 13px;
+  list-style-type: none;
 }
 
 body .header ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 13px;
-    padding: 10px;
-    width: 100%;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  padding: 10px;
+  width: 100%;
 }
 
 body .sec1 {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 body .sec1 .illustration1 {
-    width: 100%;
-    margin-top: 45px;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
+  width: 374px;
+  margin-top: 45px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 body .sec1 .txt {
-    display: -ms-grid;
-    display: grid;
+  display: -ms-grid;
+  display: grid;
 }
 
 body .sec1 .txt .firsttxt {
-    width: 230px;
-    position: relative;
-    left: 59px;
-    font-size: 18px;
-    text-align: center;
-    color: #070439;
-    font-family: Open Sans;
+  width: 230px;
+  position: relative;
+  left: 59px;
+  font-size: 18px;
+  text-align: center;
+  color: #070439;
+  font-family: Open Sans;
 }
 
 body .sec1 .txt .secondtxt {
-    position: relative;
-    font-size: 12px;
-    width: 230px;
-    left: 59px;
-    margin-top: 20px;
-    font-family: Open Sans;
+  position: relative;
+  font-size: 12px;
+  width: 230px;
+  left: 59px;
+  margin-top: 20px;
+  font-family: Open Sans;
 }
 
 body .sec1 .txt .searcharea {
-    display: -ms-grid;
-    display: grid;
-    margin-left: 39px;
-    margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  margin-left: 39px;
+  margin-top: 20px;
 }
 
 body .sec1 .txt .searcharea #sa {
-    width: 270px;
-    height: 30px;
-    position: relative;
-    text-align: left;
+  width: 270px;
+  height: 30px;
+  position: relative;
+  text-align: left;
 }
 
 body .sec1 .txt .searcharea .gs {
-    text-decoration: none;
-    width: 250px;
-    height: 20px;
-    position: relative;
-    text-align: center;
-    margin-top: 20px;
-    border-radius: 2px;
-    color: white;
-    padding: 10px;
-    background-color: #3065f8;
+  text-decoration: none;
+  width: 270px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 2px;
+  color: white;
+  padding: 10px;
+  background-color: #3065f8;
 }
 
 body .sec2 {
-    background-color: #f6f6fe;
-    width: 100%;
-    height: 1000px;
-    font-family: Open Sans;
+  background-color: #f6f6fe;
+  width: 100%;
+  height: 1000px;
+  margin-top: 100px;
+  font-family: Open Sans;
 }
 
 body .sec2 .sec2txt {
-    position: relative;
-    width: 100%;
-    padding: 10px;
-    margin-top: 80px;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  margin-top: 80px;
 }
 
 body .sec2 .sec2txt .txt2 {
-    width: 400px;
-    top: -13px;
-    left: 20px;
-    font-size: 20px;
-    position: relative;
-    text-align: center;
-    bottom: 65px;
-    font-family: Open Sans;
+  width: 400px;
+  top: -13px;
+  left: 20px;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  bottom: 65px;
+  font-family: Open Sans;
 }
 
 body .sec2 .sec2txt .txt3 {
-    font-size: 12px;
-    position: relative;
-    bottom: 18px;
-    left: 20px;
-    font-weight: 400;
-    font-family: Open Sans;
+  font-size: 12px;
+  position: relative;
+  bottom: 18px;
+  left: 20px;
+  font-weight: 400;
+  font-family: Open Sans;
 }
 
 body .sec2 .sec2txt .this {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    text-align: center;
-    position: relative;
-    left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+  position: relative;
+  left: 100px;
 }
 
 body .sec2 .sec2txt .gridsection {
-    margin-top: 20px;
-    width: 280px;
-    position: relative;
-    right: 15px;
-    padding: 10px;
-    margin-left: 42px;
-    height: 190px;
-    background-color: white;
-    -webkit-box-shadow: 0 0 10px black;
-    box-shadow: 0 0 10px black;
+  margin-top: 20px;
+  width: 310px;
+  position: relative;
+  right: 15px;
+  padding: 10px;
+  margin-left: 39px;
+  height: 210px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
 }
 
 body .sec2 .sec2txt .gridsection .quote {
-    position: relative;
-    padding-bottom: 15px;
-    padding-left: 12px;
-    padding-top: 12px;
-    width: 17px;
+  position: relative;
+  padding-bottom: 15px;
+  padding-left: 12px;
+  padding-top: 19px;
+  width: 19px;
 }
 
 body .sec2 .sec2txt .gridsection .gridtxt {
-    left: 10px;
-    font-size: 14px;
-    text-align: center;
-    position: relative;
-    bottom: 5px;
-    font-weight: 500;
+  left: 10px;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  bottom: 5px;
+  font-weight: 500;
 }
 
 body .sec2 .sec2txt .gridsection .profile {
-    position: relative;
-    left: 15px;
-    top: 4px;
+  position: relative;
+  left: 15px;
+  top: 4px;
 }
 
 body .sec2 .sec2txt .gridsection .profile .at {
-    position: relative;
-    top: 20px;
-    border-radius: 50%;
-    width: 40px;
+  position: relative;
+  top: 20px;
+  border-radius: 50%;
+  width: 40px;
 }
 
 body .sec2 .sec2txt .gridsection .profile .profilenm .st {
-    position: relative;
-    left: 43px;
-    font-weight: 200;
+  position: relative;
+  left: 43px;
+  font-weight: 200;
 }
 
 body .sec2 .illustration2 {
-    width: 100%;
-    margin: 10px;
-    margin-top: 100px;
+  width: 100%;
+  margin: 10px;
+  margin-top: 100px;
 }
 
 body .sec3 {
-    background-color: #585989;
-    color: white;
-    width: 100%;
+  background-color: #585989;
+  color: white;
+  width: 100%;
+  height: 500px;
 }
 
 body .sec3 .txt {
-    padding: 20px;
-    height: 260px;
+  padding: 20px;
+  height: 260px;
 }
 
 body .sec3 .txt .big1 {
-    position: relative;
-    top: 50px;
-    left: 55px;
-    font-weight: 1000;
-    font-size: 22px;
-    text-align: center;
-    padding-top: 120px;
+  position: relative;
+  top: 50px;
+  left: 55px;
+  font-weight: 1000;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 120px;
 }
 
 body .sec3 .o1 {
-    color: white;
-    font-size: 13px;
-    font-weight: 500;
-    position: relative;
-    left: 10px;
-    top: 90px;
-    text-align: center;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  position: relative;
+  left: 10px;
+  top: 90px;
+  text-align: center;
 }
 
 body .sec3 .ta {
-    position: relative;
-    top: -75px;
-    display: -ms-grid;
-    display: grid;
-    margin-left: 40px;
+  position: relative;
+  top: 15px;
+  display: -ms-grid;
+  display: grid;
+  margin-left: 40px;
 }
 
 body .sec3 .ta #sa2 {
-    width: 270px;
-    height: 30px;
+  width: 270px;
+  height: 30px;
 }
 
 body .sec3 .ta .gsff {
-    text-decoration: none;
-    width: 250px;
-    height: 20px;
-    position: relative;
-    text-align: center;
-    margin-top: 20px;
-    border-radius: 2px;
-    color: white;
-    padding: 10px;
-    background-color: #3065f8;
+  text-decoration: none;
+  width: 270px;
+  height: 50px;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 2px;
+  color: white;
+  padding: 7px;
+  background-color: #3065f8;
 }
 
 body .sec4 {
-    padding: 35px;
-    background-color: #070439;
-    color: white;
-    width: 100%;
-    text-align: left;
+  padding: 35px;
+  background-color: #070439;
+  color: white;
+  width: 100%;
+  height: 600px;
+  text-align: left;
 }
 
 body .sec4 .lg2 {
-    -webkit-filter: invert(1);
-    filter: invert(1);
-    padding: 10px;
-    width: 20vh;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  padding: 10px;
+  width: 20vh;
 }
 
 body .sec4 .de {
-    font-size: 20px;
-    position: relative;
-    top: 20px;
+  font-size: 20px;
+  position: relative;
+  bottom: 20px;
+  top: 20px;
 }
 
 body .sec4 .mail {
-    font-size: 20px;
-    margin-top: 34px;
+  font-size: 20px;
+  margin-top: 70px;
+  display: inline;
+  position: relative;
+  top: 30px;
 }
 
 body .sec4 .lie {
-    list-style-type: none;
-    font-size: 15px;
-    position: relative;
-    top: 30px;
-    text-align: left;
-    display: -ms-grid;
-    display: grid;
+  list-style-type: none;
+  font-size: 15px;
+  position: relative;
+  top: 50px;
+  text-align: left;
+  display: -ms-grid;
+  display: grid;
 }
 
 body .sec4 .lie .dw {
-    color: white;
-    text-decoration: none;
-    margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
 }
 
 body .attribution {
-    width: 100%;
-    font-size: 13px;
-    padding-left: 10px;
+  width: 100%;
+  font-size: 13px;
+  padding-left: 10px;
 }
 
 body .attribution a {
-    text-decoration: none;
+  text-decoration: none;
 }
-@media screen and (min-width: 450px) {
-    * {
-        overflow-x: visible;
-    }
-    body {
-        width: 100%;
-    }
-    .header {
-        width: 100%;
-        display: flex;
-    }
-    .logoimg {
-        width: 20vh;
-        margin: 17px;
-        margin-top: 45px;
-    }
-    .ul {
-        width: 100%;
-    }
-    .sec1 {
-        width: 100%;
-    }
-    .sec2 {
-        width: 100%;
-    }
-    .sec3 {
-        width: 100%;
-    }
-    .sec4 {
-        width: 100%;
-    }
+
+@media (min-width: 425px) {
+  .header {
+    width: 100%;
+    display: inline;
+  }
+  #logoimg {
+    width: 130px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  ul {
+    margin-top: 20px;
+    height: 120px;
+    padding-left: 500px;
+  }
+  li a {
+    margin-left: 100px;
+  }
+  #details {
+    font-size: 15px;
+  }
+  .sec1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .sec1 #illustration1 {
+    width: 35%;
+    position: relative;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-left: 100px;
+  }
+  .sec1 #txt {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .sec1 #txt #firsttxt {
+    margin-top: 70px;
+    font-size: 30px;
+    width: 300px;
+    text-align: left;
+  }
+  .sec1 #txt #secondtxt {
+    margin-top: -70px;
+  }
+  .sec1 #txt #searcharea {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .sec2 {
+    width: 100%;
+  }
+  .sec3 {
+    width: 100%;
+  }
+  .sec4 {
+    width: 100%;
+  }
 }
-/*# sourceMappingURL=style.css.map */ ;
+/*# sourceMappingURL=style.css.map */
