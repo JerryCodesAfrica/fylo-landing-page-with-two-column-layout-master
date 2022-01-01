@@ -11,78 +11,116 @@ $bb: hsl(224, 93%, 58%);
 $mc: hsl(170, 45%, 43%);
 $lgb: hsl(240, 75%, 98%);
 $lg: hsl(0, 0%, 75%);
-body {
+
+* {
     overflow-x: hidden;
+}
+.checkbtn {
+    position: relative;
+    left: 300px;
+    display: block;
+    font-size: 35px;
+    color: black;
+    top: 25px;
+    line-height: 80px;
+    margin-right: 20px;
+}
+#check {
+    display: none;
+}
+#bars {
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    top: -5px;
+}
+body {
+    width: 100%;
     font-family: $bfont;
     margin: 0;
     padding: 0;
     .header {
         display: flex;
         width: 100%;
+        height: 120px;
         .logoimg {
-            width: 25vh;
-            margin: 20px;
-            margin-top: 43px;
+            width: 140px;
+            margin-left: -10px;
+            margin-top: 35px;
         }
+
         ul {
+            color: black;
+            position: relative;
+            position: relative;
+            left: 500px;
+            overflow-y: hidden;
+            top: 5px;
             font-family: $hfont;
-            margin-left: 40px;
-            display: flex;
-            justify-content: space-between;
+            margin-left: 20px;
             li {
-                margin-top: 40px;
+                color: black;
+                margin-top: 160px;
+                padding-left: 65px;
                 list-style-type: none;
-                width: 100px;
+                display: inline;
+
                 a {
-                    padding: 10px;
                     text-decoration: none;
                     color: black;
-                    font-size: $fs;
+                    font-size: 15px;
+                    padding: 10px;
+                    width: 100%;
+                }
+                a:hover {
+                    background: none;
+                    color: brown;
                 }
             }
         }
     }
     .sec1 {
         text-align: center;
+        width: 100%;
         .illustration1 {
-            width: 80vh;
-            margin: 10px;
-            margin-top: 100px;
+            width: 374px;
+            margin-top: 45px;
             align-self: center;
         }
         .txt {
             display: grid;
             .firsttxt {
+                width: 230px;
                 position: relative;
-                left: 100px;
-                font-size: 30px;
+                left: 59px;
+                font-size: 18px;
                 text-align: center;
                 color: $vdb;
+                font-family: $bfont;
             }
             .secondtxt {
                 position: relative;
-                left: 100px;
-                font-size: 18px;
-                margin-top: 50px;
+                font-size: 12px;
+                width: 230px;
+                left: 59px;
+                margin-top: 20px;
+                font-family: $bfont;
             }
             .searcharea {
                 display: grid;
+                margin-left: 39px;
                 margin-top: 20px;
                 #sa {
-                    width: 340px;
-                    height: 40px;
+                    width: 270px;
+                    height: 30px;
                     position: relative;
-                    left: 110px;
                     text-align: left;
-
-                    border-color: black;
                 }
                 .gs {
                     text-decoration: none;
-                    width: 320px;
-                    height: 30px;
+                    width: 270px;
+                    height: 40px;
                     position: relative;
-                    left: 110px;
                     text-align: center;
                     margin-top: 20px;
                     border-radius: 2px;
@@ -93,24 +131,38 @@ body {
             }
         }
     }
+    .group {
+        display: grid;
+    }
     .sec2 {
+        background-color: $lgb;
+        width: 100%;
+        height: 1000px;
+        margin-top: 100px;
+        font-family: $bfont;
         .sec2txt {
             position: relative;
-            left: 100px;
-            margin-top: 100px;
+            width: 100%;
+            padding: 10px;
+            margin-top: 80px;
 
             .txt2 {
                 width: 400px;
-                margin-top: 50px;
-                font-size: 25px;
-                position: relative;
-                bottom: 50px;
-            }
-            .txt3 {
+                top: -13px;
+                left: 20px;
                 font-size: 20px;
                 position: relative;
-                bottom: 40px;
-                font-weight: 200;
+                text-align: center;
+                bottom: 65px;
+                font-family: $bfont;
+            }
+            .txt3 {
+                font-size: 12px;
+                position: relative;
+                bottom: 18px;
+                left: 20px;
+                font-weight: 400;
+                font-family: $bfont;
             }
             .this {
                 display: flex;
@@ -122,24 +174,24 @@ body {
             }
             .gridsection {
                 margin-top: 20px;
-                width: 380px;
+                width: 310px;
                 position: relative;
-                right: 18px;
+                right: 15px;
                 padding: 10px;
-                margin-right: 50px;
-                height: 220px;
+                margin-left: 39px;
+                height: 210px;
                 background-color: white;
                 box-shadow: 0 0 10px black;
                 .quote {
                     position: relative;
-                    padding-bottom: 25px;
+                    padding-bottom: 15px;
                     padding-left: 12px;
-                    padding-top: 12px;
-                    width: 17px;
+                    padding-top: 19px;
+                    width: 19px;
                 }
                 .gridtxt {
                     left: 10px;
-                    font-size: 18px;
+                    font-size: 14px;
                     text-align: center;
                     position: relative;
                     bottom: 5px;
@@ -148,7 +200,7 @@ body {
                 .profile {
                     position: relative;
                     left: 15px;
-                    top: 7px;
+                    top: 4px;
                     .at {
                         position: relative;
                         top: 20px;
@@ -166,10 +218,272 @@ body {
             }
         }
         .illustration2 {
-            width: 80vh;
+            width: 100%;
             margin: 10px;
             margin-top: 100px;
-            align-self: center;
         }
+    }
+    .sec3 {
+        background-color: $dsb;
+        color: white;
+        width: 100%;
+        height: 500px;
+
+        .txt {
+            padding: 20px;
+            height: 260px;
+            .big1 {
+                position: relative;
+                top: 50px;
+                left: 55px;
+                font-weight: 1000;
+                font-size: 22px;
+                text-align: center;
+                padding-top: 120px;
+            }
+        }
+        .o1 {
+            color: white;
+            font-size: 13px;
+            font-weight: 500;
+            position: relative;
+            left: 10px;
+            top: 90px;
+            text-align: center;
+        }
+        .ta {
+            position: relative;
+
+            top: 15px;
+            display: grid;
+            margin-left: 40px;
+            #sa2 {
+                width: 270px;
+                height: 30px;
+            }
+            .gsff {
+                text-decoration: none;
+                width: 270px;
+                height: 50px;
+                position: relative;
+                text-align: center;
+                margin-top: 20px;
+                border-radius: 2px;
+                color: white;
+                padding: 7px;
+                background-color: $bb;
+            }
+        }
+    }
+    .sec4 {
+        padding: 35px;
+        background-color: $vdb;
+        color: white;
+        width: 100%;
+        height: 600px;
+        text-align: left;
+        .lg2 {
+            filter: invert(1);
+            padding: 10px;
+            width: 20vh;
+        }
+        .de {
+            font-size: 20px;
+            position: relative;
+            bottom: 20px;
+            top: 20px;
+        }
+        .mail {
+            font-size: 20px;
+            margin-top: 70px;
+            display: inline;
+            position: relative;
+            top: 30px;
+        }
+        .lie {
+            list-style-type: none;
+            font-size: 15px;
+            position: relative;
+            top: 50px;
+            text-align: left;
+            display: grid;
+            .dw {
+                color: white;
+                text-decoration: none;
+                margin-top: 10px;
+            }
+        }
+    }
+    .attribution {
+        width: 100%;
+        font-size: 13px;
+        padding-left: 10px;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+@media (min-width: 425px) {
+    .header {
+        width: 100%;
+    }
+    #logoimg {
+        width: 130px;
+        height: 40px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    ul {
+        display: flex;
+    }
+    li {
+        position: relative;
+    }
+    .checkbtn {
+        display: none;
+    }
+    #details {
+        font-size: 15px;
+    }
+
+    .sec1 {
+        display: flex;
+        #illustration1 {
+            width: 35%;
+            position: relative;
+            order: 2;
+            margin-left: 100px;
+        }
+        #txt {
+            order: 1;
+            #firsttxt {
+                margin-top: 90px;
+                font-size: 30px;
+                width: 390px;
+            }
+            #secondtxt {
+                margin-top: -20px;
+                font-size: 16px;
+                font-weight: 500;
+                width: 370px;
+            }
+            #searcharea {
+                display: flex;
+                #sa {
+                    width: 250px;
+                    height: 40px;
+                    margin-right: 23px;
+                }
+                #gs {
+                    overflow-y: hidden;
+                    width: 200px;
+                    height: 40px;
+                    padding: 10px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+    #sec2 {
+        width: 100%;
+        display: flex;
+        height: 700px;
+        #illustration2 {
+            width: 55%;
+            height: 350px;
+            right: 200px;
+            position: relative;
+            order: 2;
+        }
+        #sec2txt {
+            order: 1;
+            #txt2 {
+                position: relative;
+                bottom: 20px;
+                font-size: 30px;
+            }
+            #txt3 {
+                position: relative;
+                top: 10px;
+                font-size: 15px;
+            }
+            #this {
+                margin-top: 20px;
+                margin-left: -80px;
+                #slm {
+                    width: 22px;
+                }
+            }
+            #gridsection {
+                top: 30px;
+                position: relative;
+                width: 370px;
+            }
+        }
+    }
+    #sec3 {
+        width: 100%;
+        display: flex;
+        height: 300px;
+        overflow-y: hidden;
+        .txt {
+            order: 1;
+            width: 500px;
+            position: relative;
+            .big1 {
+                font-size: 24px;
+                position: relative;
+                left: 6px;
+            }
+            .o1 {
+                position: relative;
+                top: 50px;
+                width: 200px;
+                font-size: 16px;
+            }
+        }
+        .ta {
+            display: grid;
+            order: 2;
+            position: relative;
+            left: 400px;
+            #sa2 {
+                order: 1;
+                height: 40px;
+                width: 300px;
+                position: relative;
+                top: 90px;
+            }
+            .gsff {
+                height: 40px;
+                order: 2;
+                width: 200px;
+                position: relative;
+                top: -20px;
+            }
+        }
+    }
+    .sec4 {
+        width: 100%;
+        display: flex;
+        #lg2 {
+            width: 120px;
+            height: 70px;
+        }
+    }
+    #bigboys {
+        display: inline;
+        color: white;
+        margin-top: 40px;
+        height: 40px;
+    }
+    #profilenm {
+        position: relative;
+        top: 12px;
+    }
+    .st {
+        position: relative;
+        top: -10px;
     }
 }
