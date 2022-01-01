@@ -36,154 +36,165 @@
 
         <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     </head>
-    <body>
+    <body class="body">
         <header class="header">
-            <input type="checkbox" name="" id="check" />
+            <input type="checkbox" name="" id="check" onclick="nb()" />
             <label for="check" class="checkbtn">
-                <i class="fas fa-bars" aria-hidden="true"></i>
+                <i class="fas fa-bars" aria-hidden="true" id="bars"></i>
             </label>
             <img src="images/logo.svg" alt="" class="logoimg" id="logoimg" />
-            <ul>
+            <ul id="bigboys">
                 <li><a href="#" class="details" id="details"> Features</a></li>
                 <li><a href="#" class="details" id="details"> Team</a></li>
                 <li><a href="#" class="details" id="details"> Sign In</a></li>
             </ul>
         </header>
-        <div class="sec1">
-            <img
-                src="images/illustration-1.svg"
-                alt=""
-                class="illustration1"
-                id="illustration1"
-            />
-            <div class="txt" id="txt">
-                <b class="firsttxt" id="firsttxt">
-                    All your files in one secure location, accessible
-                    anywhere.</b
-                >
-                <b class="secondtxt" id="secondtxt">
-                    Fylo stores your most important files in one secure
-                    location. Access them wherever you need, share and
-                    collaborate with friends, family, and co-workers.</b
-                >
-                <div class="searcharea" id="searcharea">
-                    <input
-                        type="search"
-                        name="Enter your email"
-                        id="sa"
-                        placeholder="Enter your Email"
-                    />
-                    <a href="#" class="gs" id="gs">Get started</a>
+        <div class="group">
+            <div class="sec1">
+                <img
+                    src="images/illustration-1.svg"
+                    alt=""
+                    class="illustration1"
+                    id="illustration1"
+                />
+                <div class="txt" id="txt">
+                    <b class="firsttxt" id="firsttxt">
+                        All your files in one secure location, accessible
+                        anywhere.</b
+                    >
+                    <b class="secondtxt" id="secondtxt">
+                        Fylo stores your most important files in one secure
+                        location. Access them wherever you need, share and
+                        collaborate with friends, family, and co-workers.</b
+                    >
+                    <div class="searcharea" id="searcharea">
+                        <input
+                            type="search"
+                            name="Enter your email"
+                            id="sa"
+                            placeholder="Enter your Email"
+                        />
+                        <a href="#" class="gs" id="gs">Get started</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <br />
-        <div class="sec2">
-            <img src="images/illustration-2.svg" alt="" class="illustration2" />
-            <div class="sec2txt">
-                <b class="txt2"> Stay productive, wherever you are</b>
+            <br />
+            <div class="sec2">
+                <img
+                    src="images/illustration-2.svg"
+                    alt=""
+                    class="illustration2"
+                />
+                <div class="sec2txt">
+                    <b class="txt2"> Stay productive, wherever you are</b>
 
-                <b class="txt3">
-                    <p>
-                        Never let location be an issue when accessing
+                    <b class="txt3">
+                        <p>
+                            Never let location be an issue when accessing
+                            <br />
+                            your files. Fylo has you covered for all of your
+                            file
+                            <br />
+                            storage needs.
+                        </p>
+                        Securely share files and folders with friends,
                         <br />
-                        your files. Fylo has you covered for all of your file
-                        <br />
-                        storage needs.
-                    </p>
-                    Securely share files and folders with friends,
-                    <br />
-                    family and colleagues for live collaboration. No <br />
-                    email attachments required!</b
-                >
-                <br />
-                <br />
-
-                <b class="this">
-                    See how Fylo works
-                    <img src="images/icon-arrow.svg" alt="" class="slm" />
-                </b>
-                <div class="gridsection">
-                    <img src="images/icon-quotes.svg" alt="" class="quote" />
-                    <br />
-                    <b class="gridtxt"
-                        >Fylo has improved our team productivity by an order of
-                        magnitude. Since making the switch our team has become a
-                        well-oiled collaboration machine.</b
+                        family and colleagues for live collaboration. No <br />
+                        email attachments required!</b
                     >
                     <br />
-                    <b class="profile">
-                        <img
-                            src="images/avatar-testimonial.jpg"
-                            alt=""
-                            class="at"
-                        />
-                        <b class="profilenm">
-                            Kyle Burton <br />
-                            <b class="st"> Founder & CEO,Huddle</b>
-                        </b>
+                    <br />
+
+                    <b class="this">
+                        See how Fylo works
+                        <img src="images/icon-arrow.svg" alt="" class="slm" />
                     </b>
+                    <div class="gridsection">
+                        <img
+                            src="images/icon-quotes.svg"
+                            alt=""
+                            class="quote"
+                        />
+                        <br />
+                        <b class="gridtxt"
+                            >Fylo has improved our team productivity by an order
+                            of magnitude. Since making the switch our team has
+                            become a well-oiled collaboration machine.</b
+                        >
+                        <br />
+                        <b class="profile">
+                            <img
+                                src="images/avatar-testimonial.jpg"
+                                alt=""
+                                class="at"
+                            />
+                            <b class="profilenm">
+                                Kyle Burton <br />
+                                <b class="st"> Founder & CEO,Huddle</b>
+                            </b>
+                        </b>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="sec3">
-            <div class="txt">
-                <b class="big1"> Get early access today</b>
+            <div class="sec3">
+                <div class="txt">
+                    <b class="big1"> Get early access today</b>
+                    <br />
+                    <b class="o1">
+                        It only takes a minute to sign up and our free starter
+                        tier is extremely generous. If you have any questions,
+                        our support team would be happy to help you.</b
+                    >
+                </div>
+                <div class="ta">
+                    <input
+                        type="search"
+                        name="sa"
+                        id="sa2"
+                        placeholder="email@example.com"
+                    />
+                    <a href="#" class="gsff"> Get Started For Free</a>
+                </div>
+            </div>
+            <div class="sec4">
+                <img src="images/logo.svg" alt="" class="lg2" />
                 <br />
-                <b class="o1">
-                    It only takes a minute to sign up and our free starter tier
-                    is extremely generous. If you have any questions, our
-                    support team would be happy to help you.</b
+                <b class="de"
+                    ><img src="images/icon-phone.svg" alt="" class="pi" />
+                    Phone: +1-543-123-4567</b
                 >
-            </div>
-            <div class="ta">
-                <input
-                    type="search"
-                    name="sa"
-                    id="sa2"
-                    placeholder="email@example.com"
-                />
-                <a href="#" class="gsff"> Get Started For Free</a>
-            </div>
-        </div>
-        <div class="sec4">
-            <img src="images/logo.svg" alt="" class="lg2" />
-            <br />
-            <b class="de"
-                ><img src="images/icon-phone.svg" alt="" class="pi" /> Phone:
-                +1-543-123-4567</b
-            >
-            <br />
-            <b class="mail"
-                ><img src="images/icon-email.svg" alt="" class="mail2" />
-                example@fylo.com</b
-            >
-            <li class="lie">
-                <a href="#" class="dw"> About Us </a>
-                <a href="#" class="dw"> Jobs </a>
-                <a href="#" class="dw"> Press </a>
-                <a href="#" class="dw"> Blog </a>
                 <br />
-                <br />
-                <a href="#" class="dw"> Contact Us </a>
-                <a href="#" class="dw"> Terms </a>
-                <a href="#" class="dw"> Privacy </a>
-            </li>
-        </div>
+                <b class="mail"
+                    ><img src="images/icon-email.svg" alt="" class="mail2" />
+                    example@fylo.com</b
+                >
+                <li class="lie">
+                    <a href="#" class="dw"> About Us </a>
+                    <a href="#" class="dw"> Jobs </a>
+                    <a href="#" class="dw"> Press </a>
+                    <a href="#" class="dw"> Blog </a>
+                    <br />
+                    <br />
+                    <a href="#" class="dw"> Contact Us </a>
+                    <a href="#" class="dw"> Terms </a>
+                    <a href="#" class="dw"> Privacy </a>
+                </li>
+            </div>
 
-        <footer>
-            <p class="attribution">
-                Challenge by
-                <a
-                    href="https://www.frontendmentor.io?ref=challenge"
-                    target="_blank"
-                    >Frontend Mentor</a
-                >. Coded by
-                <a
-                    href="https://www.linkedin.com/in/jeremiah-egemonye-51457420a"
-                    >Jeremiah Egemonye</a
-                >.
-            </p>
-        </footer>
+            <footer>
+                <p class="attribution">
+                    Challenge by
+                    <a
+                        href="https://www.frontendmentor.io?ref=challenge"
+                        target="_blank"
+                        >Frontend Mentor</a
+                    >. Coded by
+                    <a
+                        href="https://www.linkedin.com/in/jeremiah-egemonye-51457420a"
+                        >Jeremiah Egemonye</a
+                    >.
+                </p>
+            </footer>
+        </div>
     </body>
 </html>

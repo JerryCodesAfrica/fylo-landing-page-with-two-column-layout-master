@@ -18,6 +18,7 @@ $lg: hsl(0, 0%, 75%);
 .checkbtn {
     position: relative;
     left: 300px;
+    display: block;
     font-size: 35px;
     color: black;
     top: 25px;
@@ -27,6 +28,12 @@ $lg: hsl(0, 0%, 75%);
 #check {
     display: none;
 }
+#bars {
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    top: -5px;
+}
 body {
     width: 100%;
     font-family: $bfont;
@@ -35,46 +42,42 @@ body {
     .header {
         display: flex;
         width: 100%;
+        height: 120px;
         .logoimg {
             width: 140px;
-            margin-left: -50px;
-            margin-top: 40px;
+            margin-left: -10px;
+            margin-top: 35px;
         }
+
         ul {
-            background: grey;
-            top: 80px;
-            left: -100%;
-            transition: all 0.5s;
-            text-align: center;
-            position: fixed;
-            width: 100%;
-            height: 100vh;
+            color: black;
+            position: relative;
+            position: relative;
+            left: 500px;
+            overflow-y: hidden;
+            top: 5px;
             font-family: $hfont;
-            margin-left: -32px;
+            margin-left: 20px;
             li {
-                margin: 50px 0;
-                line-height: 30px;
-                margin-top: 100px;
-                margin-left: 5px;
+                color: black;
+                margin-top: 160px;
+                padding-left: 65px;
                 list-style-type: none;
-                display: block;
+                display: inline;
 
                 a {
                     text-decoration: none;
                     color: black;
-                    font-size: 18px;
+                    font-size: 15px;
                     padding: 10px;
                     width: 100%;
                 }
                 a:hover {
                     background: none;
-                    color: white;
+                    color: brown;
                 }
             }
         }
-    }
-    #check:checked ~ ul {
-        left: 0;
     }
     .sec1 {
         text-align: center;
@@ -127,6 +130,9 @@ body {
                 }
             }
         }
+    }
+    .group {
+        display: grid;
     }
     .sec2 {
         background-color: $lgb;
@@ -321,8 +327,6 @@ body {
 @media (min-width: 425px) {
     .header {
         width: 100%;
-
-        display: inline;
     }
     #logoimg {
         width: 130px;
@@ -331,12 +335,13 @@ body {
         margin-top: 40px;
     }
     ul {
-        margin-top: 20px;
-        height: 120px;
-        padding-left: 500px;
+        display: flex;
     }
-    li a {
-        margin-left: 100px;
+    li {
+        position: relative;
+    }
+    .checkbtn {
+        display: none;
     }
     #details {
         font-size: 15px;
@@ -353,16 +358,30 @@ body {
         #txt {
             order: 1;
             #firsttxt {
-                margin-top: 70px;
+                margin-top: 90px;
                 font-size: 30px;
-                width: 300px;
-                text-align: left;
+                width: 390px;
             }
             #secondtxt {
-                margin-top: -70px;
+                margin-top: -20px;
+                font-size: 16px;
+                font-weight: 500;
+                width: 370px;
             }
             #searcharea {
                 display: flex;
+                #sa {
+                    width: 250px;
+                    height: 40px;
+                    margin-right: 23px;
+                }
+                #gs {
+                    overflow-y: hidden;
+                    width: 200px;
+                    height: 40px;
+                    padding: 10px;
+                    margin: 0;
+                }
             }
         }
     }
@@ -374,5 +393,11 @@ body {
     }
     .sec4 {
         width: 100%;
+    }
+    #bigboys {
+        display: inline;
+        color: white;
+        margin-top: 40px;
+        height: 40px;
     }
 }

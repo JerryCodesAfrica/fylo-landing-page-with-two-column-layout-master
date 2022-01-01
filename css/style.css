@@ -6,6 +6,7 @@
 .checkbtn {
   position: relative;
   left: 300px;
+  display: block;
   font-size: 35px;
   color: black;
   top: 25px;
@@ -15,6 +16,13 @@
 
 #check {
   display: none;
+}
+
+#bars {
+  position: relative;
+  bottom: 20px;
+  width: 100%;
+  top: -5px;
 }
 
 body {
@@ -29,52 +37,45 @@ body .header {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  height: 120px;
 }
 
 body .header .logoimg {
   width: 140px;
-  margin-left: -50px;
-  margin-top: 40px;
+  margin-left: -10px;
+  margin-top: 35px;
 }
 
 body .header ul {
-  background: grey;
-  top: 80px;
-  left: -100%;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  height: 100vh;
+  color: black;
+  position: relative;
+  position: relative;
+  left: 500px;
+  overflow-y: hidden;
+  top: 5px;
   font-family: Raleway;
-  margin-left: -32px;
+  margin-left: 20px;
 }
 
 body .header ul li {
-  margin: 50px 0;
-  line-height: 30px;
-  margin-top: 100px;
-  margin-left: 5px;
+  color: black;
+  margin-top: 160px;
+  padding-left: 65px;
   list-style-type: none;
-  display: block;
+  display: inline;
 }
 
 body .header ul li a {
   text-decoration: none;
   color: black;
-  font-size: 18px;
+  font-size: 15px;
   padding: 10px;
   width: 100%;
 }
 
 body .header ul li a:hover {
   background: none;
-  color: white;
-}
-
-body #check:checked ~ ul {
-  left: 0;
+  color: brown;
 }
 
 body .sec1 {
@@ -139,6 +140,11 @@ body .sec1 .txt .searcharea .gs {
   color: white;
   padding: 10px;
   background-color: #3065f8;
+}
+
+body .group {
+  display: -ms-grid;
+  display: grid;
 }
 
 body .sec2 {
@@ -360,7 +366,6 @@ body .attribution a {
 @media (min-width: 425px) {
   .header {
     width: 100%;
-    display: inline;
   }
   #logoimg {
     width: 130px;
@@ -369,12 +374,15 @@ body .attribution a {
     margin-top: 40px;
   }
   ul {
-    margin-top: 20px;
-    height: 120px;
-    padding-left: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  li a {
-    margin-left: 100px;
+  li {
+    position: relative;
+  }
+  .checkbtn {
+    display: none;
   }
   #details {
     font-size: 15px;
@@ -398,18 +406,32 @@ body .attribution a {
             order: 1;
   }
   .sec1 #txt #firsttxt {
-    margin-top: 70px;
+    margin-top: 90px;
     font-size: 30px;
-    width: 300px;
-    text-align: left;
+    width: 390px;
   }
   .sec1 #txt #secondtxt {
-    margin-top: -70px;
+    margin-top: -20px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 370px;
   }
   .sec1 #txt #searcharea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .sec1 #txt #searcharea #sa {
+    width: 250px;
+    height: 40px;
+    margin-right: 23px;
+  }
+  .sec1 #txt #searcharea #gs {
+    overflow-y: hidden;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin: 0;
   }
   .sec2 {
     width: 100%;
@@ -419,6 +441,12 @@ body .attribution a {
   }
   .sec4 {
     width: 100%;
+  }
+  #bigboys {
+    display: inline;
+    color: white;
+    margin-top: 40px;
+    height: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
