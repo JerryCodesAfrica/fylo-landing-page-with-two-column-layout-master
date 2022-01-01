@@ -433,20 +433,125 @@ body .attribution a {
     padding: 10px;
     margin: 0;
   }
-  .sec2 {
+  #sec2 {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 700px;
   }
-  .sec3 {
+  #sec2 #illustration2 {
+    width: 55%;
+    height: 350px;
+    right: 200px;
+    position: relative;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  #sec2 #sec2txt {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  #sec2 #sec2txt #txt2 {
+    position: relative;
+    bottom: 20px;
+    font-size: 30px;
+  }
+  #sec2 #sec2txt #txt3 {
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+  }
+  #sec2 #sec2txt #this {
+    margin-top: 20px;
+    margin-left: -80px;
+  }
+  #sec2 #sec2txt #this #slm {
+    width: 22px;
+  }
+  #sec2 #sec2txt #gridsection {
+    top: 30px;
+    position: relative;
+    width: 370px;
+  }
+  #sec3 {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 300px;
+    overflow-y: hidden;
+  }
+  #sec3 .txt {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 500px;
+    position: relative;
+  }
+  #sec3 .txt .big1 {
+    font-size: 24px;
+    position: relative;
+    left: 6px;
+  }
+  #sec3 .txt .o1 {
+    position: relative;
+    top: 50px;
+    width: 200px;
+    font-size: 16px;
+  }
+  #sec3 .ta {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    position: relative;
+    left: 400px;
+  }
+  #sec3 .ta #sa2 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    height: 40px;
+    width: 300px;
+    position: relative;
+    top: 90px;
+  }
+  #sec3 .ta .gsff {
+    height: 40px;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 200px;
+    position: relative;
+    top: -20px;
   }
   .sec4 {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .sec4 #lg2 {
+    width: 120px;
+    height: 70px;
   }
   #bigboys {
     display: inline;
     color: white;
     margin-top: 40px;
     height: 40px;
+  }
+  #profilenm {
+    position: relative;
+    top: 12px;
+  }
+  .st {
+    position: relative;
+    top: -10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
